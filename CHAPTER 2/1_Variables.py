@@ -1,13 +1,8 @@
-# Write a python program to print the contents of directory using the os module .
+# Variables are you to store the value...
+a = 10
 
-import os
+b = 10.5
 
-#Specify the directory path 
-directory_path = input("Enter the path : ")
+c = True
 
-# List all the files
-contents = os.listdir(directory_path)
-
-# Print each file and directory name...
-for item in contents:
-    print(item)
+d = "Abhay"
