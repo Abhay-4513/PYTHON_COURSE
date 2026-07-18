@@ -24,9 +24,3 @@ fruits = []
 # fruits.append(fruit_7)
 
 # print(fruits)
-
-#--------This is the smaller way in which above program can be written-------
-for i in range(1,8):
-    fruit_name = input("Enter the name : ")
-    fruits.append(fruit_name)
-print(fruits)
