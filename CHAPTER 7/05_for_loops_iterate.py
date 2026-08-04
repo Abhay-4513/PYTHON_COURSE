@@ -7,5 +7,5 @@ for i in l:
 # TUPLE
 
 t = (4,5,6,3,2,1)
-for i in t:
-  print(i)
+for j in t:
+  print(j)
