@@ -1,3 +1,5 @@
+import math
+
 # Area of rectangle....
 rec_width = float(input("Enter the value of width : "))
 rec_breadth = float(input("Enter the value of breadth : "))
@@ -10,3 +12,10 @@ sq_side_1 = int(input("Enter the first side value : "))
 sq_side_2 = int(input("Enter the second side : "))
 sq_area = sq_side_1 * sq_side_2   # you can also use a**
 print(sq_area)
+
+# Radius and circumference of circle....
+radius_n = float(input("Enter the radius of circle : "))
+radius = (math.pi)*(radius_n**2)
+circumference = 2*(math.pi)*radius_n
+print(f" Radius of circle is : "radius)
+print(f" Circumference of circle is : "circumference)
