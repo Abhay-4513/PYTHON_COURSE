@@ -9,3 +9,8 @@ for i in l:
 t = (4,5,6,3,2,1)
 for j in t:
   print(j)
+
+# String
+s = "Abhay"
+for k in s :
+  print(k)
